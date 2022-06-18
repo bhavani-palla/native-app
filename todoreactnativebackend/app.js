@@ -13,7 +13,7 @@ app.use("/tasks", tasksRoute);
 
 // Mongo db connection configuration
 mongoose.connect(
-  "mongodb+srv://Bellary:fRFCGNsh1SLgY7le@cluster0.r9erm.mongodb.net/Cluster0?retryWrites=true&w=majority",
+  "removed and stored url for privacy",
   { useNewUrlParser: true, useUnifiedTopology: true },
   () => console.log("Connected to DB")
 );

@@ -13,7 +13,7 @@ app.use("/tasks", tasksRoute);
 
 // Mongo db connection configuration
 mongoose.connect(
-  "removed and stored url for privacy",
+  "add your mongodburl",
   { useNewUrlParser: true, useUnifiedTopology: true },
   () => console.log("Connected to DB")
 );
